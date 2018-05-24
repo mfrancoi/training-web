@@ -1,0 +1,106 @@
+ <!DOCTYPE html>
+ <html>
+ 	<head>
+ 		<meta charset="utf-8"/>
+ 		<link rel="stylesheet" type="text/css" href="style.css">
+		 <title>Mon titre</title>
+ 	</head>
+ 	<body>
+ 		<header>
+ 		<h1>Test pour HTML/CSS</h1>
+ 		</header>
+ 		<p>Ceci est un test pour me remettre a niveau sur les bases d'affichage</p>
+ 		<p>Les encrage servent a diriger directement vers un endroit de la page<br /> (Voir list et liens plus bas)</p>
+ 		<nav>
+ 			<ul>
+ 				<li><a href="#balises">Les balises speciales</a></li>
+ 				<li><a href="#listes">Les listes</a></li>
+ 				<li><a href="#liens">Les liens</a></li>
+ 				<li><a href="#images">Les images</a></li>
+ 				<li><a href="#styles">Le style</a></li>
+ 				<li><a href="#autresbalises">Les autres balises</a></li>
+ 				<li><a href="#tab">Les tableaux simple</a></li>
+ 				<li><a href="#music">Les musiques et videos</a></li>
+ 			</ul>
+ 		</nav>
+ 		<h2 id="balises">Les balises un peu speciales</h2>
+ 		<p>Les balises em servent a <em>mettre en valeur</em></p>
+ 		<p>Les balises strong servent a dire que le teste est <strong>important</strong></p>
+ 		<p>Les balises mark servent a faire ressortir visuelement <mark>une partie du texte</mark></p>
+ 		<h2 id="listes">Les listes</h2>
+ 		<p>Deux type de liste <br/> Non ordonees avec des points et la balise ul</p>
+ 		<ul>
+ 			<li>patate</li>
+ 			<li>carottes</li>
+ 			<li>navets</li>
+ 		</ul>
+ 		<p>Ordonees avec des nombres et la balise ol</p>
+ 		<ol>
+ 			<li>patates</li>
+ 			<li>carottes</li>
+ 			<li>navets</li>
+ 		</ol>
+ 		<h2 id="liens">Les liens</h2>
+ 		<p>La balise a et l'atribut href permet de creer <a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/creer-des-liens" title="Exemple de lien" target="_blank"> un lien</a>
+ 			<br/>
+ 			Ou pour <a href="../IMG/photo.rar"> telecharger</a> un fichier.</p>
+ 		<h2 id="images">Les images</h2>
+ 		<p>La balise img affiche les image designer par l'atribut src, a utiliser dans les paragraphes<br/>
+ 		<img id="photographer" src="../img/anime_photographe.jpg" alt="Photographe" title="anime photographe" />
+ 		</p>
+ 		<p>Les figures sont des images utiliser pour la comprehension, en dehors des paragraphe</p>
+ 		<figure>
+ 			<img src="../img/anime_photographe.jpg" alt="Photographe">
+ 			<figcaption>L'image qui est la pour t'expliquer</figcaption>
+ 		</figure>
+ 		<h2 id="styles">Le style</h2>
+ 		<p>Le fichier css ce trouve dans le meme dossier.<br/>
+ 			Mettre le nom de la balise en place du nom de fonction.<br/>
+ 			Rajouter un point devant pour appeller une class et un # pour appeller l'id.<br/>
+ 			Les selecteurs un peu plus complexe <a href="https://openclassrooms.com/courses/apprenez-a-creer-votre-site-web-avec-html5-et-css3/mettre-en-place-le-css" target="_blank">ici</a></p>
+ 			<h2 id="autresbalises">Les autres balises</h2>
+ 			<p>D'autre balises existent pour l'interrieure de la page, voici un chema<br/>
+ 				<img src="../img/balises.png"/></p>
+ 		<h2 id="tab">Les tableaux simple</h2>
+ 		<p>Les tableaux simple avec les balises table, tr et td</p>
+ 		<table>
+ 			<tr>
+ 				<td>1-1</td>
+ 				<td>1-2</td>
+ 				<td>1-3</td>
+ 			</tr>
+ 			<tr>
+ 				<td>2-1</td>
+ 				<td>2-2</td>
+ 				<td>2-3</td>
+ 			</tr>
+ 		</table>
+ 		<p>l'atribut colspan pour fusionner les cellules</p>
+ 		<table>
+ 			<tr>
+ 				<th>blah</th>
+ 				<th>blah</th>
+ 				<th>blah</th>
+ 			</tr>
+ 			<tr>
+ 				<td>blah</td>
+ 				<td colspan="2">blah</td>
+ 			</tr>
+ 			<tr>
+ 				<td>blah</td>
+ 				<td>blah</td>
+ 				<td rowspan="2">blah</td>
+ 			</tr>
+ 			<tr>
+ 				<td>blah</td>
+ 				<td>blah</td>
+ 			</tr>
+ 		</table>
+ 		<h2 id="music">Les musiques et videos</h2>
+ 		<audio src="../song/ryoko.mp3" controls></audio>
+
+ 		<footer>
+ 			<a href="#">Retourner en haut</a>
+ 		</footer>
+ 	</body>
+ </html>

@@ -1,0 +1,65 @@
+@font-face
+{
+	font-family: 'brushfont';
+	src: url(../font/AlexBrush-Regular.ttf);
+}
+
+body
+{
+	background-color: lightgrey;
+	background-image: url("../img/back.jpg");
+	background-attachment: fixed;
+}
+
+
+a
+{
+	color: maroon;
+}
+
+h1, em, strong
+{
+	color: red;
+	text-align: center;
+}
+
+h2
+{
+	color: teal;
+	font-family: brushfont;
+	font-size: 2em;
+	border: 3px inset teal;
+	background-color: white;
+	width: 50%;
+	text-align: justify;
+}
+
+p
+{
+	font-family: sans-serif;
+	text-align: justify;
+}
+
+figure
+{
+	display: none;
+}
+
+mark
+{
+	background-color: lightgrey;
+}
+
+table
+{
+	border-collapse: collapse;
+	margin: auto;
+	background-color: white;
+}
+
+td, th
+{
+	font-size: 2em;
+	text-align: center;
+	border: 2px solid maroon;
+}

@@ -1,0 +1,47 @@
+<!doctype html>
+<html style="background-color: lightblue">
+<head>
+    <meta charset="utf-8" />
+    <title>Le titre de la page</title>
+</head>
+<body>
+     
+    <div id="myDiv">
+        <p>Un peu de texte <a>et un lien</a></p>
+    </div>
+    <div>
+      <form>
+         Premier input <input type="text" name="one" id="first" oninput="swift();">
+        <br>
+        Deuxieme input<input type="text" name="two" id="second">
+        Switch<input type="checkbox" name="switch" id="switch" 
+        onchange="tada();">
+      </form>
+    </div>
+    <blockquote>
+    <p id="myP">Ceci est un paragraphe !</p>
+    <span onclick="alert('Hello !');">Cliquez-moi !</span>
+</blockquote>
+<textarea>Et voilà du texte !</textarea>
+<input id="text" type="text" value="Entrez un texte" />
+<br /><br />
+<input type="button" value="Donner le focus" onclick="document.getElementById('text').focus();" /><br />
+<input type="button" value="Retirer le focus" onclick="document.getElementById('text').blur();" />
+
+ <script>
+      function tada()
+      {
+        var plop = document.getElementById('first');
+        plop.hidden = plop.hidden == true ? false :true;
+      }
+
+      function swift()
+      {
+        var niak = document.getElementById('first');
+        var niouk = document.getElementById('second');
+        niouk.value = niak.value;
+      }
+
+    </script>
+</body>
+</html>
